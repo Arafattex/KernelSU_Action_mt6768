@@ -39,7 +39,7 @@ jobs:
 
     - name: Download Clang Toolchain
       run: |
-        git clone https://gitlab.com/najahi/clang.git -b dev/16.0 --depth=1 clang
+        git clone https://gitlab.com/najahi/clang.git -b dev/15.0 --depth=1 clang
         #mkdir clang
         #wget https://github.com/ZyCromerZ/Clang/releases/download/15.0.7-20230513-release/Clang-15.0.7-20230513.tar.gz
         #tar -C clang/ -zxf Clang-*.tar.gz
