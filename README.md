@@ -1,3 +1,4 @@
+[![Build Kernel](https://github.com/melamit/KernelSU_Action_mt6768/actions/workflows/build-kernel.yml/badge.svg?branch=a13r_base_merlin&event=workflow_run)](https://github.com/melamit/KernelSU_Action_mt6768/actions/workflows/build-kernel.yml)
 **中文** | [English](README_EN.md)
 
 # KernelSU Action For Begonia
