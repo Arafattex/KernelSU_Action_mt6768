@@ -54,14 +54,6 @@ jobs:
         cd $GITHUB_WORKSPACE/kernel_workspace
         git clone ${{ env.KERNEL_SOURCE }} -b ${{ env.KERNEL_SOURCE_BRANCH }} android-kernel --depth=1
 
-    - name: Kernel patch
-      run: |
-        cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/Arafattex/KernelSU_Action_mt6768 -b Lancelot-13.0 pt
-        cd android-kernel
-        git apply $GITHUB_WORKSPACE/kernel_workspace/pt/KernelSU.patch
-        
-
     - name: Download source boot image
       if: env.MAKE_BOOT_IMAGE == 'true'
       run: |
